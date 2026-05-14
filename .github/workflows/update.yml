@@ -3,7 +3,7 @@ name: Update S&P 500 dataset
 on:
   # Corre no dia 1 de cada mês às 06:00 UTC
   schedule:
-    - cron: '0 6 1 * *'
+    - cron: '0 6 16 * *'
   # Botão manual no GitHub UI (Actions tab → Update S&P 500 dataset → Run workflow)
   workflow_dispatch:
 
